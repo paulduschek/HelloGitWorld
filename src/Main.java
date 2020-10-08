@@ -14,7 +14,13 @@ public class Main{
             int val1 = sc.nextInt();
             int val2 = sc.nextInt();
 
-            System.out.printf("Ergebnis: %d", val1 + val2);
+            System.out.printf("Ergebnis Summe: %d%n", val1 + val2);
+
+            System.out.printf("Geben Sie 2 zu multiplizierende Zahlen ein:%n");
+            int mul1 = sc.nextInt();
+            int mul2 = sc.nextInt();
+
+            System.out.printf("Ergebnis Mulitplikation: %d", mul1 * mul2);
         }
         catch (Exception ex)
         {
