@@ -9,7 +9,8 @@ public class Main{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        try {
+        while (true)
+        try{
             System.out.printf("Geben Sie 2 zu addierende Zahlen ein:%n");
             int val1 = sc.nextInt();
             int val2 = sc.nextInt();
@@ -22,10 +23,9 @@ public class Main{
 
             System.out.printf("Ergebnis Mulitplikation: %d", mul1 * mul2);
         }
-        catch (Exception ex)
-        {
-            System.out.println("Ungültige Eingabe, versuchen Sie es noch einmal!");
+        catch (Exception ex) {
+                System.out.println("Ungültige Eingabe, versuchen Sie es noch einmal!");
+                sc.next();
         }
     }
-
 }
