@@ -18,7 +18,7 @@ public class Main{
         }
         catch (Exception ex)
         {
-            System.out.println("Ungültige Eingabe");
+            System.out.println("Ungültige Eingabe, versuchen Sie es noch einmal!");
         }
     }
 
