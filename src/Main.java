@@ -9,11 +9,17 @@ public class Main{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.printf("Geben Sie 2 zu addierende Zahlen ein:%n");
-        int val1 = sc.nextInt();
-        int val2 = sc.nextInt();
+        try {
+            System.out.printf("Geben Sie 2 zu addierende Zahlen ein:%n");
+            int val1 = sc.nextInt();
+            int val2 = sc.nextInt();
 
-        System.out.printf("Ergebnis: %d", val1 + val2);
+            System.out.printf("Ergebnis: %d", val1 + val2);
+        }
+        catch (Exception ex)
+        {
+            System.out.println("Ungültige Eingabe");
+        }
     }
 
 }
